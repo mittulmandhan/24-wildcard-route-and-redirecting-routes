@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'wildcard-route-and-redirecting-routes';
+  title = 'routing-and-navigation';
 }

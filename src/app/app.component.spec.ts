@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'wildcard-route-and-redirecting-routes'`, () => {
+  it(`should have as title 'routing-and-navigation'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('wildcard-route-and-redirecting-routes');
+    expect(app.title).toEqual('routing-and-navigation');
   });
 
   it('should render title in a h1 tag', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to wildcard-route-and-redirecting-routes!');
+    expect(compiled.querySelector('h1').textContent).toContain('Welcome to routing-and-navigation!');
   });
 });
